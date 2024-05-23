@@ -2,10 +2,10 @@ const arr1=[1,2,3,4,5];
 const output1=arr1.map((x)=>{
     return x*2;  
   });
-  console.log(output);
+  console.log(output1);
 
 const arr2=[1,2,3,4,5]
-const output2=arr.filter((x)=>{ 
+const output2=arr2.filter((x)=>{ 
 return x%2
 });
 console.log(output2);
@@ -34,3 +34,16 @@ const output = student.filter((x)=>{
     return x.marks>50;
 })
 console.log(output)
+
+
+const array = [2, 3, 4, 5];
+const square = array.map((x)=>{
+    return x**2;
+});
+console.log(square);
+
+const elements = [10, 20, 30, 40, 50];
+const double = elements.map((x)=>{
+    return x*x
+;}) 
+console.log(double);
